@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: Workshop.Example1.OrderProcessorTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.949 s <<< FAILURE! -- in Workshop.Example1.OrderProcessorTest
+Workshop.Example1.OrderProcessorTest.shouldCalculateOrderTotalCorrectly -- Time elapsed: 2.854 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "Workshop.Example1.Other.Order.getTotal()" because "order" is null
+	at Workshop.Example1.OrderProcessorTest.shouldCalculateOrderTotalCorrectly(OrderProcessorTest.java:70)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
