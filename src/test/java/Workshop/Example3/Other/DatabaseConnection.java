@@ -6,5 +6,6 @@ public class DatabaseConnection {
     }
 
     public void update(String s, String id) {
+        
     }
 }
